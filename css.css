@@ -1,0 +1,45 @@
+@font-face
+{
+	font-family: 
+}
+body {
+    
+    background: #000; /* Цвет фона */
+   }
+   h2 {
+    font-size: 18px; /* Размер шрифта в заголовке */
+    color: rgb(185, 98, 98); /* Цвет заголовка */
+    margin-top: 0; /* Отступ сверху */
+	
+   }
+   .container {
+    width: 80%px; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивнить весь блок по центру */
+    background: rgb(160, 0, 0); /* Цвет фона левой колонки */
+	
+   }
+   .header {
+	font-family: Pixograd Medium;
+    font-size: 38px; /* Размер текста в шапке */
+    text-align: center; /* Выравнивание текст шапки по центру */
+    padding: 5px; /* Отступы внутри блока шапки */
+    background: rgb(77, 9, 9); /* Цвет фона шапки */
+    color: rgb(102, 99, 99); /* Цвет текста */
+	
+   }
+   .sidebar {
+    margin-top: 10px;
+    width: 20%; /* Ширина блока */
+    padding: 0 10px; /* Отступы внутри левого блока */
+    float: left; /* Обтекание блока по правому краю */
+   }
+   .content {
+    margin-left: 20%; /* Отступ слева */
+    padding: 10px; /* Отступы внутри правого блока */
+    background: rgb(107, 102, 102); /* Цвет фона правого блока */
+   }
+   
+
+#map {
+            width: 100%; height: 85%; padding: 0; margin: 0;
+     }
